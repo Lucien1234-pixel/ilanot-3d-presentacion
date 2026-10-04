@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101b1c">
+  <meta name="description" content="Ilanot 3D: una investigación visual de una lámina cabalística circular y lineal, de la fotografía al espacio.">
+  <title>Ilanot 3D · Presentación del proyecto</title>
+  <style>
+    :root{color-scheme:dark;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#101b1c;color:#eee9dc}
+    *{box-sizing:border-box}body{margin:0}main{max-width:1180px;margin:auto;padding:clamp(20px,5vw,64px)}
+    a{color:#e6ca91}a:focus-visible{outline:3px solid #91cdbb;outline-offset:4px}
+    .eyebrow{text-transform:uppercase;letter-spacing:.19em;font-size:.72rem;color:#e6ca91;font-weight:700}
+    h1{font-size:clamp(2.3rem,5vw,4.5rem);line-height:1.05;letter-spacing:-.04em;max-width:15ch;margin:.35em 0}
+    h2{font-size:clamp(1.5rem,2.5vw,2rem);font-weight:500;margin:0 0 .7em}
+    p{line-height:1.65;color:#c9d1cd;max-width:68ch}.lead{font-size:clamp(1.05rem,1.6vw,1.35rem);max-width:60ch}
+    .hero{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(24px,5vw,70px);align-items:center;min-height:75vh}
+    .hero figure{margin:0;background:#0c1718;border:1px solid #395052;border-radius:18px;overflow:hidden;box-shadow:0 25px 80px #0005}
+    .hero img{display:block;width:100%;height:auto}.hero figcaption{padding:10px 16px;color:#aebcb5;font-size:.75rem}
+    .pill{display:inline-block;border:1px solid #59726e;border-radius:999px;padding:7px 13px;font-size:.82rem;color:#d3e1d9}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:22px 0 58px}
+    article{border:1px solid #395052;border-radius:14px;background:#192829;padding:24px}article h3{font-size:1.05rem;margin:0 0 9px}article p{margin:0;font-size:.94rem}
+    .note{border-top:1px solid #395052;padding-top:28px}.note strong{color:#eee9dc}
+    footer{margin-top:60px;padding-top:20px;border-top:1px solid #395052;color:#aebcb5;font-size:.83rem}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;min-height:0}.hero figure{max-width:650px}.grid{grid-template-columns:1fr}main{padding-bottom:28px}}
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero" aria-labelledby="titulo">
+    <div>
+      <div class="eyebrow">Atlas documental · presentación pública</div>
+      <h1 id="titulo">Ilanot 3D: de la lámina al espacio</h1>
+      <p class="lead">Una investigación visual de una lámina cabalística circular y lineal. El proyecto estudia sus círculos, figuras y eje central mediante una reconstrucción geométrica y una lectura documental por zonas.</p>
+      <span class="pill">Edición de estudio 1.5</span>
+    </div>
+    <figure>
+      <img src="vista-3d.png" width="1047" height="791" alt="Vista de estudio: círculos concéntricos y figuras centrales representados en profundidad sobre fondo oscuro.">
+      <figcaption>Vista del modelo. La profundidad y los colores son decisiones editoriales.</figcaption>
+    </figure>
+  </section>
+  <section aria-labelledby="enfoque">
+    <h2 id="enfoque">Tres formas de mirar</h2>
+    <div class="grid">
+      <article><h3>Observar</h3><p>Partir de la fotografía y distinguir lo visible de lo reconstruido.</p></article>
+      <article><h3>Leer</h3><p>Situar inscripciones y registrar traducciones parciales junto con sus dudas.</p></article>
+      <article><h3>Explorar</h3><p>Usar el espacio tridimensional para comparar las relaciones gráficas de la lámina.</p></article>
+    </div>
+  </section>
+  <section class="note" aria-labelledby="alcance">
+    <h2 id="alcance">Alcance de la edición</h2>
+    <p>La imagen original es la fuente visual. El trazado, las capas y el modelo 3D son herramientas de estudio; no representan dimensiones físicas medidas del manuscrito. Las lecturas hebreas son parciales y la identificación exacta del ejemplar fotografiado sigue pendiente de cotejo especializado.</p>
+    <p><strong>Esta página presenta el proyecto.</strong> El atlas interactivo, los datos de trabajo y los modelos descargables no forman parte de esta vista pública.</p>
+  </section>
+  <footer>Ilanot 3D · Presentación pública de una edición de estudio.</footer>
+</main>
+</body>
+</html>
